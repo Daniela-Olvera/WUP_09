@@ -22,15 +22,13 @@ fish = read_csv("Fish.csv")
 ```
 
 # Predicting Fish Weight
-We will find the best model by using two variables to predict the weight of the perch,then we will compare this to the best over all model.
+We will find the best model by using two variables to predict the weight of the perch,then we will compare this to the model that is best overall.
 
 ## Perch
 
 ```{r}
 perch=filter(fish, Species == "Perch")
 ```
-
-### Best Models
 
 ### Best Two regressor model
 
@@ -53,8 +51,6 @@ Weight = -536 + 74.77*Height+ 69.62*Width
 pike=filter(fish, Species == "Pike")
 ```
 
-### Best Models
-
 ### Best Two regressor model
 
 ```{r}
@@ -75,8 +71,6 @@ Weight = -1675.79 + -105.64*Length1+ 141.25*Length3
 ```{r}
 roach=filter(fish, Species == "Roach")
 ```
-
-### Best Models
 
 ### Best Two regressor model
 
