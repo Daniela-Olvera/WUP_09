@@ -94,3 +94,5 @@ summary(best2Roach)
 Weight = -319.118 + 8.278*Length3+ 72.300*Width
 
 ## Final Summary Statements
+
+For the perch variable,  the best two regression model would be Height and Width. For the pike variable, the best two regression model would be Length1 and Length3. For the roach variable, the best two regression model would be Length3 and Width. 
